@@ -16,6 +16,11 @@ Pin 1 (screen/ground) -------------> GPIO 27
 Pin 2 (data-) ---------------------> GPIO 26  
 Pin 3 (data+) ---------------------> GPIO 25  
 </pre>
+<pre>
+[ Buzzer ]                          [ ESP32 }
+Buzzer(+) -------------------------> GPIO 33  
+Buzzer(-) -------------------------> GND  
+</pre>
 
 ### Circuit photo
 Using 10kOm resistors is optional (legacy from previous circuit scheme)  
